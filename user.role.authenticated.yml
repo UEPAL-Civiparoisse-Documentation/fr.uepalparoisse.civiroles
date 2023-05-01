@@ -1,0 +1,29 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+  module:
+    - civicrm
+    - comment
+    - contact
+    - filter
+    - search
+    - shortcut
+    - system
+id: authenticated
+label: 'Authenticated user'
+weight: 2
+is_admin: false
+permissions:
+  - 'access CiviMail subscribe/unsubscribe pages'
+  - 'access content'
+  - 'access my cases and activities'
+  - 'access uploaded files'
+  - 'make online contributions'
+  - 'register for events'
+  - 'search content'
+  - 'use text format basic_html'
+  - 'view public CiviMail content'
+  - 'view event info'
+  

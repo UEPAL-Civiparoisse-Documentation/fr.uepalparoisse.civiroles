@@ -1,0 +1,35 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - civicrm
+id: utilisateur_paroissial
+label: 'Utilisateur paroissial'
+weight: 4
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access my cases and activities'
+  - 'access shortcuts'
+  - 'search content'
+  - 'use advanced search'
+  - 'use text format basic_html'
+  - 'access CiviEvent'
+  - 'access CiviMail subscribe/unsubscribe pages'
+  - 'access CiviMember'
+  - 'access Contact Dashboard'
+  - 'access uploaded files'
+  - 'add contact notes'
+  - 'add contacts'
+  - 'create mailings'
+  - 'edit event participants'
+  - 'edit memberships'
+  - 'edit my contact'
+  - 'make online contributions'
+  - 'register for events'
+  - 'view all activities'
+  - 'view all contacts'
+  - 'view event info'
+  - 'view event participants'
+  - 'view my contact'
+  - 'view public CiviMail content'

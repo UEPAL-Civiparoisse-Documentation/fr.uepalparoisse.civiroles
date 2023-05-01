@@ -1,0 +1,14 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - civicrm
+id: envoi_de_mails
+label: 'Gestion des mailings'
+weight: 5
+is_admin: false
+permissions:
+  - 'access CiviMail'
+  - 'approve mailings'
+  - 'delete in CiviMail'
+  - 'schedule mailings'

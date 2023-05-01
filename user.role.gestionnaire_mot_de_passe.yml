@@ -1,0 +1,13 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - civicrm
+id: gestionnaire_mot_de_passe
+label: 'Gestionnaire Mot de passe'
+weight: 9
+is_admin: false
+permissions:
+  - 'access user profiles'
+  - 'administer users'
+  - 'view user email addresses'

@@ -1,0 +1,37 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - civicrm
+id: gestionnaire
+label: 'Gestionnaire paroissial'
+weight: 7
+is_admin: false
+permissions:
+  - 'access user profiles'
+  - 'administer image styles'
+  - 'administer users'
+  - 'cancel account'
+  - 'change own username'
+  - 'view user email addresses'
+  - 'access all cases and activities'
+  - 'access CiviMail'
+  - 'access CiviReport'
+  - 'access deleted contacts'
+  - 'access uploaded files'
+  - 'administer reserved groups'
+  - 'delete activities'
+  - 'delete contacts'
+  - 'delete in CiviCase'
+  - 'delete in CiviEvent'
+  - 'delete in CiviMember'
+  - 'edit all contacts'
+  - 'edit all events'
+  - 'edit groups'
+  - 'force merge duplicate contacts'
+  - 'import contacts'
+  - 'make online contributions'
+  - 'manage event profiles'
+  - 'manage tags'
+  - 'merge duplicate contacts'
+  - 'profile view'

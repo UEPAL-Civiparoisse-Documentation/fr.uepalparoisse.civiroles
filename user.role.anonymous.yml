@@ -1,0 +1,22 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - filter.format.restricted_html
+  module:
+    - civicrm
+    - comment
+    - contact
+    - filter
+    - search
+    - system
+id: anonymous
+label: 'Anonymous user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access CiviMail subscribe/unsubscribe pages'
+  - 'make online contributions'
+  - 'register for events'
+  - 'view event info'
+  - 'view public CiviMail content'
