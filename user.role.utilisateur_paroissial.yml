@@ -8,6 +8,8 @@ label: 'Utilisateur paroissial'
 weight: 4
 is_admin: false
 permissions:
+  - 'access all custom data'
+  - 'access CiviCRM'
   - 'access content'
   - 'access my cases and activities'
   - 'access shortcuts'
@@ -23,7 +25,6 @@ permissions:
   - 'add contacts'
   - 'create mailings'
   - 'edit event participants'
-  - 'edit memberships'
   - 'edit my contact'
   - 'make online contributions'
   - 'register for events'
