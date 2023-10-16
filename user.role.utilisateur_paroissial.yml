@@ -19,7 +19,6 @@ permissions:
   - 'access CiviEvent'
   - 'access CiviMail subscribe/unsubscribe pages'
   - 'access CiviMember'
-  - 'access Contact Dashboard'
   - 'access uploaded files'
   - 'add contact notes'
   - 'add contacts'
