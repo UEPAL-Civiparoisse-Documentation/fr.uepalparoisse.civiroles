@@ -11,4 +11,5 @@ permissions:
   - 'access CiviMail'
   - 'approve mailings'
   - 'delete in CiviMail'
+  - 'edit message templates'
   - 'schedule mailings'
