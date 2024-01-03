@@ -9,7 +9,6 @@ weight: 9
 is_admin: false
 permissions:
   - 'access user profiles'
-  - 'administer permissions'
   - 'administer users'
   - 'assign envoi_de_mails role'
   - 'assign financier role'

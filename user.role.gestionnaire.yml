@@ -15,7 +15,6 @@ permissions:
   - 'access shortcuts'
   - 'access user profiles'
   - 'administer image styles'
-  - 'administer permissions'
   - 'administer search_kit'
   - 'administer users'
   - 'assign envoi_de_mails role'
